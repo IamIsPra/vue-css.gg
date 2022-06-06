@@ -1,0 +1,4 @@
+<template>
+  <path d="M12 21L12 9L6 9L6 15L12 21Z"  fill-opacity="0.5" />
+  <path d="M18 9V3H6L12 9H6V15H18L12 9H18Z"  />
+</template>

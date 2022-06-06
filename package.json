@@ -1,0 +1,44 @@
+{
+  "name": "vue-css.gg",
+  "files": ["dist"],
+  "main": "./dist/vue-css.gg.umd.js",
+  "module": "./dist/vue-css.gg.es.js",
+  "exports":{
+    ".":{
+      "import": "./dist/vue-css.gg.es.js",
+      "require": "./dist/vue-css.gg.umd.js"
+    }
+  },
+  "version": "1.0.1",
+  "keywords": [
+    "vue",
+    "vuejs",
+    "icons",
+    "svg",
+    "vue icons",
+    "css.gg",
+    "vue-icons"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamIsPra/vue-css.gg.git"
+  },
+  "author": "Isuru Prabath (IamIsPra)",
+  "license": "MIT",
+  "bug":{
+    "url": "https://github.com/IamIsPra/vue-css.gg/issues"
+  },
+  "homepage": "https://github.com/IamIsPra/vue-css.gg#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "vite": "^2.9.9"
+  }
+}
