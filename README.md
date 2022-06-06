@@ -24,7 +24,7 @@ yarn add vue-css.gg
 // register the plugin on vue
 import GGIcons from 'vue-css.gg';
 
-Vue.use(GGIcons)
+Vue.component('GGIcons', GGIcons);
 ```
 
 ```javascript
