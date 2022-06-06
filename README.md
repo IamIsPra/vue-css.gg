@@ -22,7 +22,7 @@ yarn add vue-css.gg
 
 ```javascript
 // register the plugin on vue
-import GGIcons from 'vue-css.gg';
+import {GGIcons} from 'vue-css.gg';
 
 Vue.component('GGIcons', GGIcons);
 ```

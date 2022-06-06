@@ -25,16 +25,16 @@ export default {
       require: true,
     },
     size: {
-      type: Number,
-      default: 24,
+      type: String,
+      default: "24",
     },
     color: {
       type: String,
       default: "#000",
     },
     rotate:{
-      type: Number,
-      default: 0,
+      type: String,
+      default: "0",
     }
   },
   methods: {
